@@ -8,7 +8,7 @@ function Navbar({ title }) {
     <nav className="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
       <div className="container mx-auto">Navbar</div>
 
-      <h1 class="text-3xl font-bold underline">Hello world!</h1>
+      <h1 classNmae="text-3xl font-bold underline">Hello world!</h1>
     </nav>
   )
 }
