@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import { AlertProvider } from './components/context/alert/AlertContext'
 import { GithubProvider } from './components/context/github/GithubContext'
+import Alert from './components/layout/Alert'
 import Footer from './components/layout/Footer'
 import Navbar from './components/layout/Navbar'
 import About from './pages/About'
@@ -16,6 +17,7 @@ function App() {
             <Navbar />
 
             <main className="container mx-auto px-3 pb-12">
+              <Alert />
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
