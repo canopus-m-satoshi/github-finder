@@ -1,4 +1,3 @@
-import { logDOM } from '@testing-library/react'
 import React, { useContext } from 'react'
 import AlertContext from '../context/alert/AlertContext'
 
