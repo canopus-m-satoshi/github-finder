@@ -33,6 +33,8 @@ export const GithubProvider = ({ children }) => {
       dispatch({
         type: 'GET_USER',
         payload: data,
+        // type: "アクションの種類を一意に識別できる文字列またはシンボル",
+        // payload: "アクションの実行に必要な任意のデータ",
       })
     }
   }
